@@ -1,4 +1,4 @@
-(module ARJ-169 (layer F.Cu) (tedit 5BB40D93)
+(module ARJ-169 (layer F.Cu) (tedit 5C608ECC)
   (fp_text reference REF** (at 0 10.16) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -29,7 +29,7 @@
   (pad 14 thru_hole circle (at 3.555 -19.69) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.Adhes))
   (pad 15 thru_hole circle (at -3.555 -19.69) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.Adhes))
   (pad 16 thru_hole circle (at -6.095 -19.69) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.Adhes))
-  (model "C:/Users/Steven/Downloads/ARJ-169(1).step"
+  (model ${KICAD_CUSTOM_3DMODELS}/ARJ-169.step
     (offset (xyz 0 -7.873999881744385 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
