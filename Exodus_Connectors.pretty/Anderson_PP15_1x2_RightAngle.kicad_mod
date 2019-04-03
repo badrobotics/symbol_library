@@ -1,4 +1,4 @@
-(module Anderson_PP15_1x2_RightAngle (layer F.Cu) (tedit 5CA1714C)
+(module Anderson_PP15_1x2_RightAngle (layer F.Cu) (tedit 5CA41426)
   (fp_text reference REF** (at 4 0.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -42,4 +42,9 @@
   (pad 2 thru_hole circle (at 7.95 0) (size 3.302 3.302) (drill 1.9) (layers *.Cu *.Mask))
   (pad MH1 thru_hole circle (at -3.389998 -15.8) (size 1.905 1.905) (drill 1.3) (layers *.Cu *.Mask))
   (pad MH2 thru_hole circle (at 11.39 -15.8) (size 1.905 1.905) (drill 1.3) (layers *.Cu *.Mask))
+  (model ${KICAD_CUSTOM_3DMODELS}/Anderson_PP15_1x2_RightAngle.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
