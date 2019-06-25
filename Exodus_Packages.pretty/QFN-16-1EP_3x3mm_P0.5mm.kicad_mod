@@ -1,4 +1,4 @@
-(module QFN-16-1EP_3x3mm_P0.5mm (layer F.Cu) (tedit 5C3A934E)
+(module QFN-16-1EP_3x3mm_P0.5mm (layer F.Cu) (tedit 5D100605)
   (attr smd)
   (fp_text reference REF** (at 0 -2.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -42,7 +42,7 @@
   (pad 15 smd rect (at -0.25 -1.4) (size 0.25 0.7) (layers F.Cu F.Paste F.Mask))
   (pad 16 smd rect (at -0.75 -1.4) (size 0.25 0.7) (layers F.Cu F.Paste F.Mask))
   (pad 17 smd rect (at 0 0) (size 1.45 1.45) (layers F.Cu F.Paste F.Mask))
-  (model D:/Robotics/DakotaProjects/KiCADGitRepo/symbol_library/Exodus_Packages.3dshapes/QFN-16-1EP_3x3mm_P0.5mm.step
+  (model ${KICAD_CUSTOM_3DMODELS}/QFN-16-1EP_3x3mm_P0.5mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
